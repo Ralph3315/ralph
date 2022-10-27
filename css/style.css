@@ -90,10 +90,12 @@ p {
 
 .icon1 {
     margin: 0 auto;
-    width: 41%;
+    width: 40.6%;
     transition: 0.5s;
     height: 10.5rem;
-    background-image: url(../img/포토샵.png);
+    background-color: #ffae00;
+    border-radius: 50%;
+    background-image: url(../img/포토샵\ 호버.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 35px;
@@ -106,14 +108,17 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 35px;
+    transform: rotate(-35deg);
 }
 
 .icon2 {
     margin: 0 auto;
-    width: 41%;
+    width: 40.6%;
     transition: 0.5s;
     height: 10.5rem;
-    background-image: url(../img/일본어.png);
+    background-color: #ffae00;
+    border-radius: 50%;
+    background-image: url(../img/일본어\ 호버.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 35px;
@@ -126,20 +131,14 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 35px;
+    transform: rotate(-35deg);
 }
 
 .icon3 {
     margin: 0 auto;
-    width: 41%;
+    width: 40.6%;
     transition: 0.5s;
     height: 10.5rem;
-    background-image: url(../img/코딩.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 35px;
-}
-
-.icon3:hover {
     background-color: #ffae00;
     border-radius: 50%;
     background-image: url(../img/코딩\ 호버.png);
@@ -148,12 +147,25 @@ p {
     background-size: 35px;
 }
 
+
+.icon3:hover {
+    background-color: #ffae00;
+    border-radius: 50%;
+    background-image: url(../img/코딩\ 호버.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px;
+    transform: rotate(-35deg);
+}
+
 .icon4 {
     margin: 0 auto;
-    width: 41%;
+    width: 40.6%;
     transition: 0.5s;
     height: 10.5rem;
-    background-image: url(../img/영상.png);
+    background-color: #ffae00;
+    border-radius: 50%;
+    background-image: url(../img/영상\ 호버.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 35px;
@@ -166,6 +178,7 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 35px;
+    transform: rotate(-35deg);
 }
 
 
@@ -436,7 +449,7 @@ header .intro-text .intro-heading {
     font-size: 16px;
     font-weight: 500;
     line-height: 25px;
-    margin: 20px 100px 60px 100px;
+    margin: 20px 0px 60px 0px;
 }
 
 /*--------------------
@@ -812,6 +825,9 @@ section#contact .form-group input, section#contact .form-group textarea {
 }
 .ct {
     margin-right: 8.9rem;
+}
+.cv {
+    margin-right: 5.2rem;
 }
 
 /*--------------------
